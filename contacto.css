@@ -1,0 +1,258 @@
+/* Fuentes */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f2e6d7;
+  color: #234c47;
+}
+
+.encabezado {
+  background-color: #77c1ac;
+  padding: 3px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.logo {
+  height: 120px;
+}
+
+.linea-cascaras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #e8d7bd;
+  gap: 20px;
+}
+
+.linea-cascaras img {
+  height: 50px;
+  opacity: 0.7;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b4032;
+  font-weight: bold;
+}
+
+nav a.activo {
+  text-decoration: underline;
+}
+
+/* Pie de página */
+.pie-pagina {
+  padding: 48px 32px;
+  background-color: #f2e6d7;
+}
+
+.contenedor-pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: flex-start;
+  background-color: #a4c6b8;
+  color: #234c47;
+  padding: 48px 32px;
+}
+
+.info-pie {
+  flex: 1 1 40%;
+  min-width: 300px;
+}
+
+.info-pie h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  margin: 0px;
+  color: #348d83;
+  text-align: center;
+}
+
+.autor {
+  font-size: 21px;
+  color: #2b6f67;
+  margin: 6px 0px 16px;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 21px;
+  max-width: 400px;
+  text-align: center;
+  margin-left: 165px;
+}
+
+.galeria-pie {
+  flex: 1 1 55%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.video-pie {
+  width: 30%;
+  min-width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección contacto */
+.contenedor-contacto {
+  display: flex;
+  justify-content: center;
+  padding: 96px 32px;
+  max-width: 1300px;
+  margin: auto;
+  gap: 48px;
+}
+
+.columna {
+  flex: 1;
+}
+
+.imagen-video {
+  width: 100%;
+  max-width: 700px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.texto-observacion {
+  margin-top: 16px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.boton-secundario {
+  display: block;
+  margin: 16px auto 0px;
+  padding: 8px 24px;
+  background-color: #99d0b9;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Formulario */
+.formulario h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #2b6f67;
+  margin-bottom: 8px;
+  line-height: 35px;
+}
+
+.texto-sub {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 13px;
+  border: none;
+  background-color: #e8d7bd;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 160px;
+  resize: none;
+}
+
+.boton-principal {
+  background-color: #99d0b9;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Newsletter */
+.boletin {
+  background-color: #77c1ac;
+  padding: 32px;
+  text-align: center;
+  padding-left: 240px;
+}
+
+.boletin p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.boletin input {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  font-size: 19px;
+  margin-left: 13px;
+}
+
+.boletin button {
+  background-color: #0f564c;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Navegación inferior */
+.navegacion-inferior {
+  background-color: #e8d7bd;
+  padding: 32px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion-inferior p {
+  font-weight: bold;
+  color: #234c47;
+  font-size: 32px;
+  padding-left: 240px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navegacion-inferior ul {
+  list-style: none;
+  display: flex;
+  gap: 67px;
+  margin: 0px;
+  padding-right: 160px;
+}
+
+.navegacion-inferior a {
+  text-decoration: none;
+  color: #234c47;
+  font-size: 19px;
+}

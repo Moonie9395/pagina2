@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocean Bloom</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <img src="logo1.png" alt="Logo Ocean Bloom" class="logo" />
+    <nav>
+      <a href="index.html" class="activo">Inicio</a>
+      <a href="proceso.html">Proceso</a>
+      <a href="sobremi.html">Sobre mi</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Línea decorativa con conchas -->
+  <div class="shell-linea">
+    <!-- 26 veces la misma imagen -->
+    <!-- Puedes acortar o hacer esto con JS si querés optimizar -->
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+    <img src="cascara.png" alt="Decoración" />
+  </div>
+
+  <main class="galeria-contenedor">
+
+    <!-- Carrusel en la sección principal -->
+    <section class="gallery hero">
+      <div class="carousel">
+        <div class="carousel-track">
+          <div class="carousel-slide">
+            <video class="carousel-video" autoplay muted loop>
+              <source src="carrouselvideo1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="carousel-slide">
+            <video class="carousel-video" autoplay muted loop>
+              <source src="carrouselvideo2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="carousel-slide">
+            <video class="carousel-video" autoplay muted loop>
+              <source src="carrouselvideo3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <!-- Botones de navegación -->
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Fila de 3 videos -->
+    <section class="gallery row row-3">
+      <div class="video-placeholder">
+        <video src="boceto6.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-placeholder">
+        <video src="maquetacion.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-placeholder">
+        <video src="blender1.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <!-- Texto descriptivo -->
+    <section class="description">
+      <p>
+        Ocean Bloom es una propuesta visual desarrollada íntegramente en 3D, donde cada pieza fue modelada, texturizada e iluminada para capturar una atmósfera de lujo inspirada en la fantasía marina. Este proyecto busca destacar la capacidad del diseño tridimensional para dar vida a objetos de alta gama con estética narrativa.
+      </p>
+    </section>
+
+    <div class="mid-rectangle">
+      <img src="productos.jpg" alt="Imagen descriptiva" class="mid-image" />
+    </div>
+
+    <!-- Galería de imágenes -->
+    <section class="gallery row row-1">
+      <img src="Viewport1.jpg" alt="Imagen 1" class="gallery-img">
+      <img src="materiales1.jpg" alt="Imagen 2" class="gallery-img">
+      <img src="render1.jpg" alt="Imagen 3" class="gallery-img">
+    </section>
+
+    <!-- Texto adicional -->
+    <section class="description">
+      <p>
+        Este proyecto utiliza herramientas de modelado, texturizado y renderizado para dar vida a una colección visual inspirada en el océano. Ocean Bloom representa una exploración técnica y artística que combina la fantasía marina con el detalle y la precisión del 3D.
+      </p>
+    </section>
+
+    <section class="banner">
+      <h2 class="banner-text">Iluminación</h2>
+    </section>
+
+    <section class="content">
+      <!-- Contenido de la sección de iluminación -->
+    </section>
+
+    <section class="gallery row-vertical">
+      <div class="info-block">
+        <div class="media-placeholder">
+          <img src="sol.png" alt="Iluminación 1">
+        </div>
+        <div class="text-info">
+          <h3>Método 1: Luz Lateral</h3>
+          <p>Ilumina desde el costado para generar volumen y profundidad en el objeto.</p>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="media-placeholder">
+          <img src="plano.png" alt="Iluminación 2">
+        </div>
+        <div class="text-info">
+          <h3>Método 2: Luz Cenital</h3>
+          <p>Simula la luz del sol desde arriba. Ideal para dramatismo o iluminación ambiental.</p>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="media-placeholder">
+          <img src="hdri.png" alt="Iluminación 3">
+        </div>
+        <div class="text-info">
+          <h3>Método 3: Luz Frontal</h3>
+          <p>Ilumina de frente y reduce sombras. Útil para mostrar detalles sin contraste.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="iluminacion">
+      <img src="crema facial 1.png" alt="Imagen descriptiva" class="mid-image" />
+    </div>
+
+    <section class="mini-video-section">
+      <div class="mini-video-box">
+        <img src="ocean wave - copia.png" alt="">
+      </div>
+      <div class="mini-video-box">
+        <img src="ocean wave 2 - copia.png" alt="">
+      </div>
+      <div class="mini-video-box">
+        <img src="ocean wave 3 - copia.png" alt="">
+      </div>
+    </section>
+
+    <section class="llamado-accion oculto" id="cta">
+      <h2>¿Querés trabajar conmigo?</h2>
+      <p>Estoy abierta a colaboraciones, encargos o proyectos creativos.</p>
+      <a href="contacto.html" class="boton-cta">Ponete en contacto</a>
+    </section>
+    
+
+    <section class="banner">
+      <h2 class="banner-text">animacion</h2>
+    </section>
+
+    <section class="content">
+      <!-- Contenido de la sección de animación -->
+    </section>
+
+    <section class="video-row">
+      <div class="video-box">
+        <video src="SEREUM VIDEO 1.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-box">
+        <video src="cream wave.mp4" autoplay muted loop playsinline></video>
+      </div>
+      <div class="video-box">
+        <video src="crema.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </section>
+
+    <div class="animacion">
+      <video src="blender30.mp4" autoplay muted loop playsinline></video>
+    </div>
+    <div class="animacion">
+      <video src="anilloanimacion.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <div class="animacion">
+      <video src="vela.mp4" autoplay muted loop playsinline></video>
+    </div>
+
+    <section class="banner">
+      <h2 class="banner-text">Materiales</h2>
+    </section>
+
+    <section class="gallery row row-4">
+      <img src="arena.png" alt="Montículo de arena" class="gallery-img" />
+      <img src="perla.png" alt="Montículo de arena" class="gallery-img" />
+      <img src="vidrio.png" alt="Montículo de arena" class="gallery-img" />
+      <img src="oro.png" alt="Montículo de arena" class="gallery-img" />
+    </section>
+
+    <section class="gallery row row-3">
+      <img src="playa.jpg" alt="Vista marina" class="gallery-img" />
+      <img src="playa2.jpg" alt="Vista marina" class="gallery-img" />
+      <img src="playa3.jpg" alt="Vista marina" class="gallery-img" />
+      <img src="Anillos1.jpg" alt="Vista marina" class="gallery-img" />
+      <img src="Anillos2.jpg" alt="Vista marina" class="gallery-img" />
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <h2>Ocean Bloom</h2>
+          <p class="autor">By Guadalupe Salvatierra</p>
+          <p class="descripcion">
+            Ocean Bloom es una invitación a sumergirte en un universo donde el arte digital florece como una coral. A través del modelado 3D, esta colección busca reconectar con la belleza orgánica, la fluidez creativa y la fantasía como forma de expresión auténtica.
+          </p>
+        </div>
+        <div class="footer-galeria">
+          <video src="playaaa.mp4" class="footer-video" autoplay muted loop playsinline></video>
+          <video src="conchita2.mp4" class="footer-video" autoplay muted loop playsinline></video>
+          <video src="mar1.mp4" class="footer-video" autoplay muted loop playsinline></video>
+          
+        </div>
+      </div>
+
+    <section class="footer-icon">
+      <img src="cascara.png" alt="icono decorativo" />
+    </section>
+
+    <button id="boton-arriba" title="Volver arriba">↑</button>
+
+  </main>
+
+  <script src="carrousel.js"></script>
+</body>
+</html>
