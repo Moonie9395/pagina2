@@ -1,7 +1,7 @@
 /* Fuentes */
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Georgia', serif;
   background-color: #f2e6d7;
   color: #234c47;
 }
@@ -19,18 +19,16 @@ body {
   height: 120px;
 }
 
-.linea-cascaras {
+.shell-linea {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0px;
-  background-color: #e8d7bd;
-  gap: 20px;
-}
-
-.linea-cascaras img {
-  height: 50px;
-  opacity: 0.7;
+  height: 60px;
+  width: 100%;
+  background-image: url(shell.png);
+  background-size: 60px;
+  background-repeat: repeat-x;
+  background-color: #e7cfb7;
 }
 
 nav ul {
