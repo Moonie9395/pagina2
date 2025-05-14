@@ -40,7 +40,6 @@ body {
 }
 
 
-/* CITA */
 .frase {
     background-color: #e7cfb7;
     text-align: right;
@@ -55,7 +54,7 @@ body {
     margin-left: 10px;
 }
  
-/* SECCIÓN INICIO */
+
 .inicio {
     background-color: #f0e4d4;
     display: flex;
@@ -96,7 +95,7 @@ body {
     
 }
 
-/* SECCIÓN HABILIDADES */
+
 .habilidades {
     background-color: #a4c6b8;
     display: flex;
@@ -221,7 +220,7 @@ body {
     font-style: italic;
 }
 
-/* SECCIÓN PERFIL */
+
 .perfil {
     background-color: #f0e4d4;
     display: flex;
@@ -274,7 +273,7 @@ body {
     z-index: 1;
 }
 
-/* novedades */
+
 .novedades {
     background-color: #77c1ac;
     padding: 2rem;
@@ -309,7 +308,7 @@ body {
     cursor: pointer;
 }
 
-/* NAV INFERIOR */
+
 .nav-inferior {
     background-color: #e7cfb7;
     padding: 2rem 2rem;
@@ -386,7 +385,7 @@ body {
   }
   
   .footer-info {
-    flex: 1 1 40%; /* Ajustá si hace falta */
+    flex: 1 1 40%; 
     min-width: 300px;
   }
   
